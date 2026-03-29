@@ -1,6 +1,6 @@
 /**
  * Service detail content. Three AI-generated images per service in
- * assets/images/services/ (<slug>.png, <slug>-2.png, <slug>-3.png).
+ * assets/images/services/ (<slug>.webp, <slug>-2.webp, <slug>-3.webp).
  * Optional Google Images discovery via googleQuery opens in a new tab.
  */
 window.SERVICE_DATA = {
@@ -16,15 +16,15 @@ window.SERVICE_DATA = {
     ],
     images: [
       {
-        src: "assets/images/services/ac-ventilation.png",
+        src: "assets/images/services/ac-ventilation.webp",
         alt: "AI-generated: HVAC technician installing split air conditioning indoors",
       },
       {
-        src: "assets/images/services/ac-ventilation-2.png",
+        src: "assets/images/services/ac-ventilation-2.webp",
         alt: "AI-generated: outdoor condenser units on a commercial rooftop",
       },
       {
-        src: "assets/images/services/ac-ventilation-3.png",
+        src: "assets/images/services/ac-ventilation-3.webp",
         alt: "AI-generated: insulated ventilation ductwork above ceiling grid",
       },
     ],
@@ -42,15 +42,15 @@ window.SERVICE_DATA = {
     ],
     images: [
       {
-        src: "assets/images/services/tiling.png",
+        src: "assets/images/services/tiling.webp",
         alt: "AI-generated: worker laying ceramic floor tiles on site",
       },
       {
-        src: "assets/images/services/tiling-2.png",
+        src: "assets/images/services/tiling-2.webp",
         alt: "AI-generated: cutting large porcelain tile with wet saw",
       },
       {
-        src: "assets/images/services/tiling-3.png",
+        src: "assets/images/services/tiling-3.webp",
         alt: "AI-generated: finished bathroom with large-format wall tiles",
       },
     ],
@@ -68,15 +68,15 @@ window.SERVICE_DATA = {
     ],
     images: [
       {
-        src: "assets/images/services/carpentry-wood.png",
+        src: "assets/images/services/carpentry-wood.webp",
         alt: "AI-generated: carpenter installing hardwood flooring",
       },
       {
-        src: "assets/images/services/carpentry-wood-2.png",
+        src: "assets/images/services/carpentry-wood-2.webp",
         alt: "AI-generated: fitting custom kitchen wall cabinets",
       },
       {
-        src: "assets/images/services/carpentry-wood-3.png",
+        src: "assets/images/services/carpentry-wood-3.webp",
         alt: "AI-generated: skirting board and door architrave detail",
       },
     ],
@@ -94,15 +94,15 @@ window.SERVICE_DATA = {
     ],
     images: [
       {
-        src: "assets/images/services/engraving-ornamentation.png",
+        src: "assets/images/services/engraving-ornamentation.webp",
         alt: "AI-generated: decorative carved wall panel in a luxury interior",
       },
       {
-        src: "assets/images/services/engraving-ornamentation-2.png",
+        src: "assets/images/services/engraving-ornamentation-2.webp",
         alt: "AI-generated: laser-cut decorative metal room divider",
       },
       {
-        src: "assets/images/services/engraving-ornamentation-3.png",
+        src: "assets/images/services/engraving-ornamentation-3.webp",
         alt: "AI-generated: ornate plaster crown molding cornice",
       },
     ],
@@ -120,15 +120,15 @@ window.SERVICE_DATA = {
     ],
     images: [
       {
-        src: "assets/images/services/system-installation.png",
+        src: "assets/images/services/system-installation.webp",
         alt: "AI-generated: mechanical room with pumps and piping",
       },
       {
-        src: "assets/images/services/system-installation-2.png",
+        src: "assets/images/services/system-installation-2.webp",
         alt: "AI-generated: building management touch panel with HVAC schematic",
       },
       {
-        src: "assets/images/services/system-installation-3.png",
+        src: "assets/images/services/system-installation-3.webp",
         alt: "AI-generated: rooftop cooling tower and chiller equipment",
       },
     ],
@@ -146,15 +146,15 @@ window.SERVICE_DATA = {
     ],
     images: [
       {
-        src: "assets/images/services/wallpaper.png",
+        src: "assets/images/services/wallpaper.webp",
         alt: "AI-generated: installer applying wallpaper in a residential room",
       },
       {
-        src: "assets/images/services/wallpaper-2.png",
+        src: "assets/images/services/wallpaper-2.webp",
         alt: "AI-generated: removing old wallpaper with steamer",
       },
       {
-        src: "assets/images/services/wallpaper-3.png",
+        src: "assets/images/services/wallpaper-3.webp",
         alt: "AI-generated: living room with bold botanical wallpaper feature wall",
       },
     ],
@@ -172,15 +172,15 @@ window.SERVICE_DATA = {
     ],
     images: [
       {
-        src: "assets/images/services/plumbing-sanitary.png",
+        src: "assets/images/services/plumbing-sanitary.webp",
         alt: "AI-generated: plumber working on bathroom sink fittings",
       },
       {
-        src: "assets/images/services/plumbing-sanitary-2.png",
+        src: "assets/images/services/plumbing-sanitary-2.webp",
         alt: "AI-generated: water pipes in wall chase before closing",
       },
       {
-        src: "assets/images/services/plumbing-sanitary-3.png",
+        src: "assets/images/services/plumbing-sanitary-3.webp",
         alt: "AI-generated: walk-in rain shower with frameless glass",
       },
     ],
@@ -198,15 +198,15 @@ window.SERVICE_DATA = {
     ],
     images: [
       {
-        src: "assets/images/services/painting.png",
+        src: "assets/images/services/painting.webp",
         alt: "AI-generated: painter rolling paint on an interior wall",
       },
       {
-        src: "assets/images/services/painting-2.png",
+        src: "assets/images/services/painting-2.webp",
         alt: "AI-generated: spray painting cabinet doors in workshop",
       },
       {
-        src: "assets/images/services/painting-3.png",
+        src: "assets/images/services/painting-3.webp",
         alt: "AI-generated: exterior villa painting from scaffold",
       },
     ],
@@ -224,15 +224,15 @@ window.SERVICE_DATA = {
     ],
     images: [
       {
-        src: "assets/images/services/sanitary-pipes.png",
+        src: "assets/images/services/sanitary-pipes.webp",
         alt: "AI-generated: pipe repair work under a sink",
       },
       {
-        src: "assets/images/services/sanitary-pipes-2.png",
+        src: "assets/images/services/sanitary-pipes-2.webp",
         alt: "AI-generated: solvent-welding PVC drainage joints",
       },
       {
-        src: "assets/images/services/sanitary-pipes-3.png",
+        src: "assets/images/services/sanitary-pipes-3.webp",
         alt: "AI-generated: tightening compression fitting on copper pipe",
       },
     ],
@@ -250,15 +250,15 @@ window.SERVICE_DATA = {
     ],
     images: [
       {
-        src: "assets/images/services/electro-mechanical.png",
+        src: "assets/images/services/electro-mechanical.webp",
         alt: "AI-generated: electric motor and pump equipment",
       },
       {
-        src: "assets/images/services/electro-mechanical-2.png",
+        src: "assets/images/services/electro-mechanical-2.webp",
         alt: "AI-generated: variable frequency drive electrical cabinet",
       },
       {
-        src: "assets/images/services/electro-mechanical-3.png",
+        src: "assets/images/services/electro-mechanical-3.webp",
         alt: "AI-generated: fan coil unit with flexible duct connections",
       },
     ],
@@ -276,15 +276,15 @@ window.SERVICE_DATA = {
     ],
     images: [
       {
-        src: "assets/images/services/false-ceiling.png",
+        src: "assets/images/services/false-ceiling.webp",
         alt: "AI-generated: suspended gypsum ceiling installation",
       },
       {
-        src: "assets/images/services/false-ceiling-2.png",
+        src: "assets/images/services/false-ceiling-2.webp",
         alt: "AI-generated: recessed LED linear profile in ceiling",
       },
       {
-        src: "assets/images/services/false-ceiling-3.png",
+        src: "assets/images/services/false-ceiling-3.webp",
         alt: "AI-generated: acoustic ceiling tiles in office grid",
       },
     ],
@@ -302,15 +302,15 @@ window.SERVICE_DATA = {
     ],
     images: [
       {
-        src: "assets/images/services/plaster.png",
+        src: "assets/images/services/plaster.webp",
         alt: "AI-generated: plasterer applying skim coat with a trowel",
       },
       {
-        src: "assets/images/services/plaster-2.png",
+        src: "assets/images/services/plaster-2.webp",
         alt: "AI-generated: metal corner bead on drywall before plastering",
       },
       {
-        src: "assets/images/services/plaster-3.png",
+        src: "assets/images/services/plaster-3.webp",
         alt: "AI-generated: drywall lift raising sheet to ceiling",
       },
     ],
@@ -328,15 +328,15 @@ window.SERVICE_DATA = {
     ],
     images: [
       {
-        src: "assets/images/services/electrical.png",
+        src: "assets/images/services/electrical.webp",
         alt: "AI-generated: electrician installing a ceiling light fixture",
       },
       {
-        src: "assets/images/services/electrical-2.png",
+        src: "assets/images/services/electrical-2.webp",
         alt: "AI-generated: open consumer unit distribution board with MCBs",
       },
       {
-        src: "assets/images/services/electrical-3.png",
+        src: "assets/images/services/electrical-3.webp",
         alt: "AI-generated: LED cove lighting behind ceiling trim",
       },
     ],
@@ -354,15 +354,15 @@ window.SERVICE_DATA = {
     ],
     images: [
       {
-        src: "assets/images/services/other-construction.png",
+        src: "assets/images/services/other-construction.webp",
         alt: "AI-generated: construction team at a building site",
       },
       {
-        src: "assets/images/services/other-construction-2.png",
+        src: "assets/images/services/other-construction-2.webp",
         alt: "AI-generated: concrete pour at construction site",
       },
       {
-        src: "assets/images/services/other-construction-3.png",
+        src: "assets/images/services/other-construction-3.webp",
         alt: "AI-generated: metal stud framing for interior fit-out",
       },
     ],
