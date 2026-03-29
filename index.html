@@ -28,8 +28,10 @@
       </button>
       <nav class="nav" aria-label="Primary">
         <a href="#hero">Home</a>
+        <a href="#showcase">Overview</a>
         <a href="#achievements">Achievements</a>
-        <a href="#services">Services</a>
+        <a href="#professional-services">Professional</a>
+        <a href="#services">Technical</a>
         <a href="contact.html" class="btn btn--sm btn--outline nav__cta">Contact Us</a>
       </nav>
     </div>
@@ -85,9 +87,56 @@
           </div>
         </div>
       </div>
-      <a class="scroll-hint" href="#achievements" aria-label="Scroll to achievements">
+      <a class="scroll-hint" href="#showcase" aria-label="Scroll to overview">
         <span class="scroll-hint__mouse"></span>
       </a>
+    </section>
+
+    <section class="showcase" id="showcase" aria-labelledby="showcase-heading">
+      <div class="showcase__bg" aria-hidden="true"></div>
+      <div class="container showcase__layout">
+        <div class="showcase__copy reveal" data-reveal>
+          <span class="showcase__kicker">Dubai-wide execution</span>
+          <h2 id="showcase-heading" class="showcase__headline">Approvals, construction &amp; technical delivery — in one workflow.</h2>
+          <p class="showcase__lede">
+            From authority NOCs and permit packages to turnkey villas and MEP coordination, we align documentation, engineering, and site teams so your project moves with clarity — not chaos.
+          </p>
+          <div class="showcase__actions">
+            <a href="#professional-services" class="btn btn--primary btn--shine">Professional services</a>
+            <a href="professional-services.html" class="btn btn--ghost">Approvals &amp; construction detail</a>
+          </div>
+        </div>
+        <div class="showcase__panels">
+          <article class="showcase-panel reveal" data-reveal>
+            <div class="showcase-panel__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            </div>
+            <h3 class="showcase-panel__title">Authorities &amp; permits</h3>
+            <p class="showcase-panel__text">DDA, Dubai Municipality, Trakhees, Nakheel, DEWA — drawings, submissions, and follow-through.</p>
+          </article>
+          <article class="showcase-panel reveal" data-reveal data-reveal-delay="60">
+            <div class="showcase-panel__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V7l7-4 7 4v14"/><path d="M9 21v-8h6v8"/></svg>
+            </div>
+            <h3 class="showcase-panel__title">Turnkey &amp; civil</h3>
+            <p class="showcase-panel__text">G+1 villas, service blocks, maid rooms, partitions, and civil packages — built to scope.</p>
+          </article>
+          <article class="showcase-panel reveal" data-reveal data-reveal-delay="120">
+            <div class="showcase-panel__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            </div>
+            <h3 class="showcase-panel__title">MEP &amp; coordination</h3>
+            <p class="showcase-panel__text">Mechanical, electrical, and plumbing integrated with inspections and handover readiness.</p>
+          </article>
+          <article class="showcase-panel reveal" data-reveal data-reveal-delay="180">
+            <div class="showcase-panel__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </div>
+            <h3 class="showcase-panel__title">Supervision</h3>
+            <p class="showcase-panel__text">Project management, site supervision, and approval handling until sign-off.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
     <section class="section achievements" id="achievements">
@@ -128,6 +177,43 @@
             <p class="stat-card__value">100%</p>
             <p class="stat-card__label">Commitment to safety &amp; quality standards</p>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pro-services" id="professional-services">
+      <div class="container">
+        <header class="section__head reveal" data-reveal>
+          <p class="eyebrow eyebrow--line">Approvals &amp; construction</p>
+          <h2 class="section__title">Our professional services</h2>
+          <p class="section__desc">
+            End-to-end support for authority approvals, construction works, permits, and supervision. Open the full page for scope detail on each line item.
+          </p>
+        </header>
+        <ul class="pro-services__grid">
+          <li class="pro-services__item reveal" data-reveal><a class="pro-card" href="professional-services.html#ps-1"><span class="pro-card__n">01</span><span class="pro-card__text">Complete Authorities Approvals</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="20"><a class="pro-card" href="professional-services.html#ps-2"><span class="pro-card__n">02</span><span class="pro-card__text">DDA (Dubai Development Authority) Approvals</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="40"><a class="pro-card" href="professional-services.html#ps-3"><span class="pro-card__n">03</span><span class="pro-card__text">Dubai Municipality (DM) Approvals</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="60"><a class="pro-card" href="professional-services.html#ps-4"><span class="pro-card__n">04</span><span class="pro-card__text">Trakhees Approvals</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="80"><a class="pro-card" href="professional-services.html#ps-5"><span class="pro-card__n">05</span><span class="pro-card__text">Nakheel Approvals</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="100"><a class="pro-card" href="professional-services.html#ps-6"><span class="pro-card__n">06</span><span class="pro-card__text">DEWA Approvals</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="120"><a class="pro-card" href="professional-services.html#ps-7"><span class="pro-card__n">07</span><span class="pro-card__text">G+1 Villa Construction (Complete Turnkey Solutions)</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="140"><a class="pro-card" href="professional-services.html#ps-8"><span class="pro-card__n">08</span><span class="pro-card__text">Service Block Construction</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="160"><a class="pro-card" href="professional-services.html#ps-9"><span class="pro-card__n">09</span><span class="pro-card__text">Maid Room Construction</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="180"><a class="pro-card" href="professional-services.html#ps-10"><span class="pro-card__n">10</span><span class="pro-card__text">Partition Works (All Types)</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="200"><a class="pro-card" href="professional-services.html#ps-11"><span class="pro-card__n">11</span><span class="pro-card__text">Authority Approval for Partitions &amp; Modifications</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="220"><a class="pro-card" href="professional-services.html#ps-12"><span class="pro-card__n">12</span><span class="pro-card__text">Civil Works</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="240"><a class="pro-card" href="professional-services.html#ps-13"><span class="pro-card__n">13</span><span class="pro-card__text">MEP Works (Mechanical, Electrical &amp; Plumbing)</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="260"><a class="pro-card" href="professional-services.html#ps-14"><span class="pro-card__n">14</span><span class="pro-card__text">Drawing Preparation &amp; Submission</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="280"><a class="pro-card" href="professional-services.html#ps-15"><span class="pro-card__n">15</span><span class="pro-card__text">Permit Approvals &amp; Coordination with Authorities</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="300"><a class="pro-card" href="professional-services.html#ps-16"><span class="pro-card__n">16</span><span class="pro-card__text">Renovation &amp; Modification Works</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="320"><a class="pro-card" href="professional-services.html#ps-17"><span class="pro-card__n">17</span><span class="pro-card__text">Inspection &amp; Approval Handling</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="340"><a class="pro-card" href="professional-services.html#ps-18"><span class="pro-card__n">18</span><span class="pro-card__text">Project Management &amp; Supervision</span></a></li>
+          <li class="pro-services__item reveal" data-reveal data-reveal-delay="360"><a class="pro-card pro-card--accent" href="professional-services.html#ps-19"><span class="pro-card__n">19</span><span class="pro-card__text">We also Build According to Client Requirements (Custom Build Solutions)</span></a></li>
+        </ul>
+        <div class="pro-services__cta reveal" data-reveal>
+          <a href="professional-services.html" class="btn btn--primary btn--shine">Full professional services — approvals &amp; construction</a>
+          <a href="contact.html" class="btn btn--ghost">Discuss your project</a>
         </div>
       </div>
     </section>
@@ -318,8 +404,9 @@
       </div>
       <div class="footer__links">
         <a href="#hero">Home</a>
-        <a href="#achievements">Achievements</a>
-        <a href="#services">Services</a>
+        <a href="#showcase">Overview</a>
+        <a href="#professional-services">Professional</a>
+        <a href="#services">Technical</a>
         <a href="contact.html">Contact</a>
       </div>
       <p class="footer__copy">&copy; <span id="year"></span> Batoor AlWatan Technical Services LLC. All rights reserved.</p>
