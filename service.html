@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Batoor AlWatan Technical Services LLC — service details and gallery in Dubai." />
+  <title>Service | Batoor AlWatan Technical Services LLC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/images/logo.jpeg" type="image/jpeg" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="service-page-body">
+  <div class="noise" aria-hidden="true"></div>
+  <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
+
+  <header class="header header--page" id="top">
+    <div class="container header__inner">
+      <a class="logo" href="index.html">
+        <img class="logo__img" src="assets/images/logo.jpeg" width="200" height="56" alt="" decoding="async" />
+        <span class="logo__title">Batoor AlWatan Technical Services LLC</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#hero">Home</a>
+        <a href="index.html#achievements">Achievements</a>
+        <a href="index.html#services">Services</a>
+        <a href="contact.html" class="btn btn--sm btn--outline nav__cta">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="service-page">
+    <div class="service-page__hero">
+      <div class="hero__bg hero__bg--animated" aria-hidden="true"></div>
+      <div class="container">
+        <p class="service-page__breadcrumb">
+          <a href="index.html#services" class="link-arrow link-arrow--back">← All services</a>
+        </p>
+      </div>
+    </div>
+
+    <div id="service-not-found" class="service-not-found container" hidden>
+      <h1 class="section__title">Service not found</h1>
+      <p class="section__desc">This link may be outdated. Choose a service from the list or contact us.</p>
+      <p class="service-page__actions">
+        <a href="index.html#services" class="btn btn--primary">View services</a>
+        <a href="contact.html" class="btn btn--ghost">Contact us</a>
+      </p>
+    </div>
+
+    <article id="service-detail-root" class="service-detail container">
+      <header class="service-detail__head reveal is-visible">
+        <p class="eyebrow eyebrow--line">Batoor AlWatan · Dubai</p>
+        <h1 id="service-title" class="service-detail__title">Loading…</h1>
+        <p id="service-intro" class="service-detail__intro"></p>
+      </header>
+
+      <section class="service-detail__section reveal is-visible" aria-labelledby="gallery-heading">
+        <h2 id="gallery-heading" class="service-detail__h2">Gallery</h2>
+       
+        <div id="service-gallery" class="service-gallery"></div>
+      </section>
+
+      <section class="service-detail__section reveal is-visible" aria-labelledby="scope-heading">
+        <h2 id="scope-heading" class="service-detail__h2">What we cover</h2>
+        <ul id="service-bullets" class="service-detail__bullets"></ul>
+      </section>
+
+      <div class="service-detail__cta">
+        <a href="contact.html" class="btn btn--primary btn--shine btn--lg">Contact us for this service</a>
+        <p class="service-detail__cta-hint">Request a site visit or quote — we serve all of Dubai.</p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a class="footer__logo" href="index.html" aria-label="Batoor AlWatan — home">
+          <img class="logo__img logo__img--footer" src="assets/images/logo.jpeg" width="160" height="44" alt="" decoding="async" />
+        </a>
+        <div class="footer__brand-body">
+          <p class="footer__name">Batoor AlWatan Technical Services LLC</p>
+          <address class="footer__address">
+            SAMA RESIDENCE – M-06,
+            Plot No. 0-13,
+            Al Nahda First,
+            Dubai, UAE
+          </address>
+        </div>
+      </div>
+      <div class="footer__links">
+        <a href="index.html#hero">Home</a>
+        <a href="index.html#achievements">Achievements</a>
+        <a href="index.html#services">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p class="footer__copy">&copy; <span id="year"></span> Batoor AlWatan Technical Services LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a class="fab" href="https://wa.me/971501550321" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="assets/js/services-data.js"></script>
+  <script src="assets/js/service-page.js"></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
